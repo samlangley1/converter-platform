@@ -14,7 +14,7 @@ Clients can login to be issued a JWT, which can then be used to authenticate aga
 
 Every service is built as a docker image and deployed using Kubernetes manifests into a minikube cluster.
 
-Technologies used for each component:
+Technologies used for each component:\
 Gateway - Python, Flask\
 Auth - Python, JWT, MySQL\
 Video Queue - RabbitMQ\
